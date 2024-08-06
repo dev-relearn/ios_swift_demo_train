@@ -1,0 +1,133 @@
+[{
+   "id":0,
+   "carriages":[
+      {
+         "typeOfDesignation":"MODEL C",
+         "manufacturer":"LG",
+         "year":"2022",
+         "trainLength":12.00,
+         "curbWeight":12.0,
+         "maxPassengers":200,
+         "maxLoading":300.0,
+         "carriageType":{
+            "locomotive":{
+               "tractiveEffort":300000.0,
+               "type":"diesel"
+            }
+         }
+      },
+      {
+         "typeOfDesignation":"MODEL D",
+         "manufacturer":"CROSS",
+         "year":"2022",
+         "trainLength":10.00,
+         "curbWeight":10.0,
+         "maxPassengers":100,
+         "maxLoading":200.0,
+         "carriageType":{
+            "wagon":{
+               "type":"passenger"
+            }
+         }
+      },
+      {
+         "typeOfDesignation":"MODEL F",
+         "manufacturer":"RED",
+         "year":"2022",
+         "trainLength":12.00,
+         "curbWeight":12.0,
+         "maxPassengers":200,
+         "maxLoading":300.0,
+         "carriageType":{
+            "wagon":{
+               "type":"passenger"
+            }
+         }
+      },
+      {
+         "typeOfDesignation":"MODEL G",
+         "manufacturer":"BMW",
+         "year":"2022",
+         "trainLength":12.00,
+         "curbWeight":12.0,
+         "maxPassengers":200,
+         "maxLoading":300.0,
+         "carriageType":{
+            "wagon":{
+               "type":"dine"
+            }
+         }
+      },
+      {
+         "typeOfDesignation":"MODEL G",
+         "manufacturer":"BMW",
+         "year":"2022",
+         "trainLength":12.00,
+         "curbWeight":12.0,
+         "maxPassengers":200,
+         "maxLoading":300.0,
+         "carriageType":{
+            "wagon":{
+               "type":"sleep"
+            }
+         }
+      },
+      {
+         "typeOfDesignation":"MODEL G",
+         "manufacturer":"BMW",
+         "year":"2022",
+         "trainLength":12.00,
+         "curbWeight":12.0,
+         "maxPassengers":200,
+         "maxLoading":20.0,
+         "carriageType":{
+            "wagon":{
+               "type":"sleep"
+            }
+         }
+      },
+      {
+         "typeOfDesignation":"MODEL G",
+         "manufacturer":"BMW",
+         "year":"2022",
+         "trainLength":12.00,
+         "curbWeight":12.0,
+         "maxPassengers":200,
+         "maxLoading":30.0,
+         "carriageType":{
+            "wagon":{
+               "type":"sleep"
+            }
+         }
+      },
+      {
+         "typeOfDesignation":"MODEL G",
+         "manufacturer":"BMW",
+         "year":"2022",
+         "trainLength":12.00,
+         "curbWeight":12.0,
+         "maxPassengers":0,
+         "maxLoading":300.0,
+         "carriageType":{
+            "wagon":{
+               "type":"goods"
+            }
+         }
+      },
+      {
+         "typeOfDesignation":"MODEL G",
+         "manufacturer":"BMW",
+         "year":"2022",
+         "trainLength":12.00,
+         "curbWeight":12.0,
+         "maxPassengers":0,
+         "maxLoading":150,
+         "carriageType":{
+            "wagon":{
+               "type":"goods"
+            }
+         }
+      }
+   ]
+}
+]

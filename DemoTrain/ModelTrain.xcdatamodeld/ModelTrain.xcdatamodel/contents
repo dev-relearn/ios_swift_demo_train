@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="23D56" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="CarriageDataModel" representedClassName="CarriageDataModel" syncable="YES">
+        <attribute name="carriageType" optional="YES" attributeType="String"/>
+        <attribute name="curbWeight" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="manufacturer" optional="YES" attributeType="String"/>
+        <attribute name="maxLoading" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="maxPassengers" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="position" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="tractiveEffort" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="trainLength" optional="YES" attributeType="Decimal" defaultValueString="0.0"/>
+        <attribute name="typeOfDesignation" optional="YES" attributeType="String"/>
+        <attribute name="year" optional="YES" attributeType="String"/>
+        <relationship name="trainDataModel" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="TrainDataModel" inverseName="carriagesDataModel" inverseEntity="TrainDataModel"/>
+    </entity>
+    <entity name="TrainDataModel" representedClassName="TrainDataModel" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <relationship name="carriagesDataModel" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="CarriageDataModel" inverseName="trainDataModel" inverseEntity="CarriageDataModel"/>
+    </entity>
+</model>

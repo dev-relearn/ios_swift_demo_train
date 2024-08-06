@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB07CD412B679C4F00D0410E /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07CD402B679C4F00D0410E /* TestView.swift */; };
+		AB07CD432B684B9D00D0410E /* Coach.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB07CD422B684B9D00D0410E /* Coach.swift */; };
 		AB54194E2B642BCA00152FFD /* DemoTrainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB54194D2B642BCA00152FFD /* DemoTrainApp.swift */; };
 		AB5419502B642BCA00152FFD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB54194F2B642BCA00152FFD /* ContentView.swift */; };
 		AB5419522B642BCC00152FFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB5419512B642BCC00152FFD /* Assets.xcassets */; };
@@ -14,6 +16,33 @@
 		AB54195F2B642BCC00152FFD /* DemoTrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB54195E2B642BCC00152FFD /* DemoTrainTests.swift */; };
 		AB5419692B642BCC00152FFD /* DemoTrainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5419682B642BCC00152FFD /* DemoTrainUITests.swift */; };
 		AB54196B2B642BCC00152FFD /* DemoTrainUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB54196A2B642BCC00152FFD /* DemoTrainUITestsLaunchTests.swift */; };
+		AB54198F2B642CA700152FFD /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5419872B642CA700152FFD /* HomeView.swift */; };
+		AB5419902B642CA700152FFD /* DataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5419882B642CA700152FFD /* DataHandler.swift */; };
+		AB5419912B642CA700152FFD /* TrainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5419892B642CA700152FFD /* TrainView.swift */; };
+		AB5419922B642CA700152FFD /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB54198A2B642CA700152FFD /* Model.swift */; };
+		AB5419932B642CA700152FFD /* CarriageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB54198B2B642CA700152FFD /* CarriageService.swift */; };
+		AB5419942B642CA700152FFD /* TrainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB54198C2B642CA700152FFD /* TrainService.swift */; };
+		AB5419952B642CA700152FFD /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = AB54198D2B642CA700152FFD /* data.json */; };
+		AB5419962B642CA700152FFD /* CarriageRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB54198E2B642CA700152FFD /* CarriageRow.swift */; };
+		AB54199B2B642CC100152FFD /* HomeViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5419972B642CC100152FFD /* HomeViewModelTest.swift */; };
+		AB54199C2B642CC100152FFD /* MockTrainService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5419982B642CC100152FFD /* MockTrainService.swift */; };
+		AB54199D2B642CC100152FFD /* TrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5419992B642CC100152FFD /* TrainTests.swift */; };
+		AB54199E2B642CC100152FFD /* MockCarriageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB54199A2B642CC100152FFD /* MockCarriageService.swift */; };
+		AB5419A02B642D4C00152FFD /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB54199F2B642D4C00152FFD /* HomeViewModel.swift */; };
+		AB5419A22B64312900152FFD /* TrainRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5419A12B64312900152FFD /* TrainRow.swift */; };
+		AB5419A62B6434AB00152FFD /* TrainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5419A52B6434AB00152FFD /* TrainViewModel.swift */; };
+		AB5419B22B64656B00152FFD /* DatabaseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5419B12B64656B00152FFD /* DatabaseHandler.swift */; };
+		AB5939942B66535C00FDA98B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5939932B66535C00FDA98B /* Persistence.swift */; };
+		AB59399A2B6655CA00FDA98B /* ModelTrain.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AB5939982B6655CA00FDA98B /* ModelTrain.xcdatamodeld */; };
+		AB5939BF2B66796700FDA98B /* TrainDataModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5939BB2B66796700FDA98B /* TrainDataModel+CoreDataClass.swift */; };
+		AB5939C02B66796700FDA98B /* TrainDataModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5939BC2B66796700FDA98B /* TrainDataModel+CoreDataProperties.swift */; };
+		AB5939C12B66796700FDA98B /* CarriageDataModel+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5939BD2B66796700FDA98B /* CarriageDataModel+CoreDataClass.swift */; };
+		AB5939C22B66796700FDA98B /* CarriageDataModel+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5939BE2B66796700FDA98B /* CarriageDataModel+CoreDataProperties.swift */; };
+		AB5939C42B66B65D00FDA98B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5939C32B66B65D00FDA98B /* Helper.swift */; };
+		AB5939C62B66B99B00FDA98B /* HelperUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5939C52B66B99B00FDA98B /* HelperUI.swift */; };
+		AB5939C82B66C9BA00FDA98B /* myTrain.json in Resources */ = {isa = PBXBuildFile; fileRef = AB5939C72B66C9BA00FDA98B /* myTrain.json */; };
+		AB5E597D2B64FDDD0082F4C9 /* StructureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5E597C2B64FDDD0082F4C9 /* StructureView.swift */; };
+		AB5E597F2B6548340082F4C9 /* test.json in Resources */ = {isa = PBXBuildFile; fileRef = AB5E597E2B6548340082F4C9 /* test.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +63,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB07CD402B679C4F00D0410E /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		AB07CD422B684B9D00D0410E /* Coach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coach.swift; sourceTree = "<group>"; };
 		AB54194A2B642BCA00152FFD /* DemoTrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoTrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB54194D2B642BCA00152FFD /* DemoTrainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTrainApp.swift; sourceTree = "<group>"; };
 		AB54194F2B642BCA00152FFD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +75,33 @@
 		AB5419642B642BCC00152FFD /* DemoTrainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoTrainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB5419682B642BCC00152FFD /* DemoTrainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTrainUITests.swift; sourceTree = "<group>"; };
 		AB54196A2B642BCC00152FFD /* DemoTrainUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTrainUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB5419872B642CA700152FFD /* HomeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AB5419882B642CA700152FFD /* DataHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataHandler.swift; sourceTree = "<group>"; };
+		AB5419892B642CA700152FFD /* TrainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainView.swift; sourceTree = "<group>"; };
+		AB54198A2B642CA700152FFD /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		AB54198B2B642CA700152FFD /* CarriageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarriageService.swift; sourceTree = "<group>"; };
+		AB54198C2B642CA700152FFD /* TrainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainService.swift; sourceTree = "<group>"; };
+		AB54198D2B642CA700152FFD /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		AB54198E2B642CA700152FFD /* CarriageRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarriageRow.swift; sourceTree = "<group>"; };
+		AB5419972B642CC100152FFD /* HomeViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModelTest.swift; sourceTree = "<group>"; };
+		AB5419982B642CC100152FFD /* MockTrainService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockTrainService.swift; sourceTree = "<group>"; };
+		AB5419992B642CC100152FFD /* TrainTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainTests.swift; sourceTree = "<group>"; };
+		AB54199A2B642CC100152FFD /* MockCarriageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockCarriageService.swift; sourceTree = "<group>"; };
+		AB54199F2B642D4C00152FFD /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AB5419A12B64312900152FFD /* TrainRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainRow.swift; sourceTree = "<group>"; };
+		AB5419A52B6434AB00152FFD /* TrainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainViewModel.swift; sourceTree = "<group>"; };
+		AB5419B12B64656B00152FFD /* DatabaseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHandler.swift; sourceTree = "<group>"; };
+		AB5939932B66535C00FDA98B /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AB5939992B6655CA00FDA98B /* ModelTrain.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ModelTrain.xcdatamodel; sourceTree = "<group>"; };
+		AB5939BB2B66796700FDA98B /* TrainDataModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrainDataModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AB5939BC2B66796700FDA98B /* TrainDataModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TrainDataModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AB5939BD2B66796700FDA98B /* CarriageDataModel+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CarriageDataModel+CoreDataClass.swift"; sourceTree = "<group>"; };
+		AB5939BE2B66796700FDA98B /* CarriageDataModel+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CarriageDataModel+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		AB5939C32B66B65D00FDA98B /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		AB5939C52B66B99B00FDA98B /* HelperUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperUI.swift; sourceTree = "<group>"; };
+		AB5939C72B66C9BA00FDA98B /* myTrain.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = myTrain.json; path = DemoTrain/Models/myTrain.json; sourceTree = SOURCE_ROOT; };
+		AB5E597C2B64FDDD0082F4C9 /* StructureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructureView.swift; sourceTree = "<group>"; };
+		AB5E597E2B6548340082F4C9 /* test.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = test.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +132,10 @@
 		AB5419412B642BCA00152FFD = {
 			isa = PBXGroup;
 			children = (
+				AB5939BB2B66796700FDA98B /* TrainDataModel+CoreDataClass.swift */,
+				AB5939BC2B66796700FDA98B /* TrainDataModel+CoreDataProperties.swift */,
+				AB5939BD2B66796700FDA98B /* CarriageDataModel+CoreDataClass.swift */,
+				AB5939BE2B66796700FDA98B /* CarriageDataModel+CoreDataProperties.swift */,
 				AB54194C2B642BCA00152FFD /* DemoTrain */,
 				AB54195D2B642BCC00152FFD /* DemoTrainTests */,
 				AB5419672B642BCC00152FFD /* DemoTrainUITests */,
@@ -94,10 +156,18 @@
 		AB54194C2B642BCA00152FFD /* DemoTrain */ = {
 			isa = PBXGroup;
 			children = (
+				AB5939932B66535C00FDA98B /* Persistence.swift */,
+				AB5419A82B6435A400152FFD /* ViewModel */,
+				AB5419A92B6435C100152FFD /* Rows */,
+				AB5E597A2B64FD4F0082F4C9 /* Services */,
+				AB5E597B2B64FD6B0082F4C9 /* Models */,
+				AB5419A72B64358F00152FFD /* Views */,
 				AB54194D2B642BCA00152FFD /* DemoTrainApp.swift */,
-				AB54194F2B642BCA00152FFD /* ContentView.swift */,
 				AB5419512B642BCC00152FFD /* Assets.xcassets */,
 				AB5419532B642BCC00152FFD /* Preview Content */,
+				AB5939982B6655CA00FDA98B /* ModelTrain.xcdatamodeld */,
+				AB5939C32B66B65D00FDA98B /* Helper.swift */,
+				AB5939C52B66B99B00FDA98B /* HelperUI.swift */,
 			);
 			path = DemoTrain;
 			sourceTree = "<group>";
@@ -113,7 +183,13 @@
 		AB54195D2B642BCC00152FFD /* DemoTrainTests */ = {
 			isa = PBXGroup;
 			children = (
+				AB5939C72B66C9BA00FDA98B /* myTrain.json */,
+				AB5419972B642CC100152FFD /* HomeViewModelTest.swift */,
+				AB54199A2B642CC100152FFD /* MockCarriageService.swift */,
+				AB5419982B642CC100152FFD /* MockTrainService.swift */,
+				AB5419992B642CC100152FFD /* TrainTests.swift */,
 				AB54195E2B642BCC00152FFD /* DemoTrainTests.swift */,
+				AB5E597E2B6548340082F4C9 /* test.json */,
 			);
 			path = DemoTrainTests;
 			sourceTree = "<group>";
@@ -125,6 +201,57 @@
 				AB54196A2B642BCC00152FFD /* DemoTrainUITestsLaunchTests.swift */,
 			);
 			path = DemoTrainUITests;
+			sourceTree = "<group>";
+		};
+		AB5419A72B64358F00152FFD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB5E597C2B64FDDD0082F4C9 /* StructureView.swift */,
+				AB5419872B642CA700152FFD /* HomeView.swift */,
+				AB5419892B642CA700152FFD /* TrainView.swift */,
+				AB54194F2B642BCA00152FFD /* ContentView.swift */,
+				AB07CD402B679C4F00D0410E /* TestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB5419A82B6435A400152FFD /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AB54199F2B642D4C00152FFD /* HomeViewModel.swift */,
+				AB5419A52B6434AB00152FFD /* TrainViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		AB5419A92B6435C100152FFD /* Rows */ = {
+			isa = PBXGroup;
+			children = (
+				AB54198E2B642CA700152FFD /* CarriageRow.swift */,
+				AB5419A12B64312900152FFD /* TrainRow.swift */,
+				AB07CD422B684B9D00D0410E /* Coach.swift */,
+			);
+			path = Rows;
+			sourceTree = "<group>";
+		};
+		AB5E597A2B64FD4F0082F4C9 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AB54198B2B642CA700152FFD /* CarriageService.swift */,
+				AB5419882B642CA700152FFD /* DataHandler.swift */,
+				AB5419B12B64656B00152FFD /* DatabaseHandler.swift */,
+				AB54198C2B642CA700152FFD /* TrainService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AB5E597B2B64FD6B0082F4C9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB54198D2B642CA700152FFD /* data.json */,
+				AB54198A2B642CA700152FFD /* Model.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +270,8 @@
 			dependencies = (
 			);
 			name = DemoTrain;
+			packageProductDependencies = (
+			);
 			productName = DemoTrain;
 			productReference = AB54194A2B642BCA00152FFD /* DemoTrain.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +344,8 @@
 				Base,
 			);
 			mainGroup = AB5419412B642BCA00152FFD;
+			packageReferences = (
+			);
 			productRefGroup = AB54194B2B642BCA00152FFD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB5419552B642BCC00152FFD /* Preview Assets.xcassets in Resources */,
+				AB5419952B642CA700152FFD /* data.json in Resources */,
 				AB5419522B642BCC00152FFD /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +372,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5939C82B66C9BA00FDA98B /* myTrain.json in Resources */,
+				AB5E597F2B6548340082F4C9 /* test.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,7 +391,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5419912B642CA700152FFD /* TrainView.swift in Sources */,
+				AB5419B22B64656B00152FFD /* DatabaseHandler.swift in Sources */,
+				AB5E597D2B64FDDD0082F4C9 /* StructureView.swift in Sources */,
+				AB5419902B642CA700152FFD /* DataHandler.swift in Sources */,
+				AB07CD432B684B9D00D0410E /* Coach.swift in Sources */,
+				AB5939C02B66796700FDA98B /* TrainDataModel+CoreDataProperties.swift in Sources */,
+				AB5419A22B64312900152FFD /* TrainRow.swift in Sources */,
+				AB5419962B642CA700152FFD /* CarriageRow.swift in Sources */,
+				AB5419A02B642D4C00152FFD /* HomeViewModel.swift in Sources */,
+				AB5939C42B66B65D00FDA98B /* Helper.swift in Sources */,
+				AB5939BF2B66796700FDA98B /* TrainDataModel+CoreDataClass.swift in Sources */,
+				AB5939C22B66796700FDA98B /* CarriageDataModel+CoreDataProperties.swift in Sources */,
+				AB5939C62B66B99B00FDA98B /* HelperUI.swift in Sources */,
+				AB54198F2B642CA700152FFD /* HomeView.swift in Sources */,
+				AB5939C12B66796700FDA98B /* CarriageDataModel+CoreDataClass.swift in Sources */,
+				AB5419922B642CA700152FFD /* Model.swift in Sources */,
+				AB5939942B66535C00FDA98B /* Persistence.swift in Sources */,
+				AB5419942B642CA700152FFD /* TrainService.swift in Sources */,
+				AB5419A62B6434AB00152FFD /* TrainViewModel.swift in Sources */,
 				AB5419502B642BCA00152FFD /* ContentView.swift in Sources */,
+				AB07CD412B679C4F00D0410E /* TestView.swift in Sources */,
+				AB5419932B642CA700152FFD /* CarriageService.swift in Sources */,
+				AB59399A2B6655CA00FDA98B /* ModelTrain.xcdatamodeld in Sources */,
 				AB54194E2B642BCA00152FFD /* DemoTrainApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +422,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB54199D2B642CC100152FFD /* TrainTests.swift in Sources */,
+				AB54199C2B642CC100152FFD /* MockTrainService.swift in Sources */,
+				AB54199E2B642CC100152FFD /* MockCarriageService.swift in Sources */,
 				AB54195F2B642BCC00152FFD /* DemoTrainTests.swift in Sources */,
+				AB54199B2B642CC100152FFD /* HomeViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +597,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.DemoTrain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -465,6 +626,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.demo.DemoTrain;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_REFLECTION_METADATA_LEVEL = all;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -582,6 +744,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AB5939982B6655CA00FDA98B /* ModelTrain.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AB5939992B6655CA00FDA98B /* ModelTrain.xcdatamodel */,
+			);
+			currentVersion = AB5939992B6655CA00FDA98B /* ModelTrain.xcdatamodel */;
+			path = ModelTrain.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AB5419422B642BCA00152FFD /* Project object */;
 }
